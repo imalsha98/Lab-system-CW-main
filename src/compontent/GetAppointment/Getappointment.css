@@ -1,0 +1,49 @@
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b0b0d;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+}
+
+@media (max-inline-size: 768px) {
+    .navbar ul {
+        display: none;
+        /* Hide the navbar links */
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-inline-end: auto;
+    }
+
+    /* Add more styles for smaller screens as needed */
+}
+
+.navbar ul li {
+    display: inline;
+    margin-inline-end: 20px;
+    /* Changed from margin-inline-end to margin-right */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
