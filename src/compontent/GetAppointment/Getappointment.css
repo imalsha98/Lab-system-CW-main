@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0b0b0d;
+    background-color: #090983;
     color: #fff;
     font-weight: bold;
 }
@@ -41,7 +41,7 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #811010;
 }
 
 .navbar ul li a:hover {
