@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Home.css'; // Import the CSS file for Home component
+import myImage from '../../assets/5377012.jpg'
 
 
 const Home = () => {
  return (
   <div>
     <nav className="navbar">
-    <h className="logo">ABC Lab System</h>
+    <h className="logo">ABC Laboratories</h>
       <ul>
         <li><a href="/Home">Home</a></li>
         <li><a href="/Login">Login</a></li>
@@ -17,16 +18,19 @@ const Home = () => {
       </ul>
     </nav>
     <div className="home-content">
-      <div className="right-bg">
-        <img className="position-absolute w-100 h-100 rounded" src="D:\Adv project\lab-frontend\lab-frontend\src\assets\shutterstock_530971462.jpg" style={{ objectFit: 'cover' }} alt="Right background" />
-      </div>
-      <div className="text-content">
-        <h1>Best Healthcare Solution </h1>
-        <h1>In Your City</h1>
-        <div className="button-container">
+      
+      <div className="">
+        <div className="text-content">
+        <h1>Best Healthcare Solution In Your City </h1>
+        </div>
+     <div className="button-container-home">
           <Link to="/Login" className="btn btn-primary mr-4">Login</Link>
           <Link to="/register" className="btn btn-secondary">Sign Up</Link>
         </div>
+      </div>
+      <div className="img-content">
+        
+        <img src= {myImage} alt="img" style={{width:'500px', height:'500px'}} />
       </div>
     </div>
   </div>

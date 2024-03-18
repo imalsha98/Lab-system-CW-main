@@ -11,19 +11,21 @@ body {
   align-items: center;
   block-size: 105vh;
   flex-direction: row; 
+  background-color: #0056b3;
 }
 #payment-form{
     display: flex;
     justify-content: center;
     margin-block-start: 20px;
     display: grid;
+   
 
 }
 
 .form-group {
   
     inline-size: 350px;
-    background-color: #f4ebeb;
+    background-color: #b16e6e;
     border-radius: 7px;
     box-shadow: 0 0 8px rgba(193, 186, 186, 0.1);
     padding: 15px;
